@@ -1,0 +1,1 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=next.config.Thymeleaf3AutoConfiguration
