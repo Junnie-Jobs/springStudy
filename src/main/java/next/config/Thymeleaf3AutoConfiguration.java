@@ -41,7 +41,7 @@ import org.thymeleaf.templateresolver.ITemplateResolver;
 @EnableConfigurationProperties(ThymeleafProperties.class)
 @ConditionalOnClass({SpringTemplateEngine.class, SpringContextUtils.class})
 @AutoConfigureAfter(WebMvcAutoConfiguration.class)
-@ComponentScan(basePackages = { "trello" })
+@ComponentScan(basePackages = { "next" })
 public class Thymeleaf3AutoConfiguration extends WebMvcConfigurerAdapter{
 
     private static final Log logger = LogFactory.getLog(Thymeleaf3AutoConfiguration.class);
