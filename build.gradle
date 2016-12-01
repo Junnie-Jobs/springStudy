@@ -36,6 +36,14 @@ dependencies {
 	compile("org.thymeleaf:thymeleaf-spring4:3.0.0.RELEASE")
     compile("org.thymeleaf:thymeleaf:3.0.0.RELEASE")
     compile('org.projectlombok:lombok:1.16.8')
-    testCompile('org.springframework.boot:spring-boot-starter-test')
-  
+    compile('org.webjars:angularjs:1.4.3')
+    compile('org.webjars:jquery:2.1.1')
+    compile('org.webjars:bootstrap:3.2.0')
+    compile('org.webjars:webjars-locator')
+    
+
+    compile("org.springframework.boot:spring-boot-starter-security")
+    compile("org.springframework.security.oauth:spring-security-oauth2")
+    
+    testCompile('org.springframework.boot:spring-boot-starter-test') 
 }

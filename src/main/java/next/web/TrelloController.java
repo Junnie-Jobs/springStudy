@@ -12,6 +12,11 @@ public class TrelloController {
         return "index";
     }
 	
+	@RequestMapping("/logintest")
+    public String logintest() {
+        return "loginTest";
+    }
+	
 	@RequestMapping("/login")
     public String login() {
         return "login";

@@ -8,4 +8,6 @@ import next.domain.User;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 
+	User findByUserId(String username);
+
 }
